@@ -1,0 +1,33 @@
+comandos de Git no terminal: (Git Bash no Windows)
+
+git / para ver alguns comandos de git 
+
+git --version / para ver a versão do git instalada 
+
+git config --global user.name "seu user name do GitHub" / configurar globalmente o terminal com o seu GitHub
+
+git config --global user.email "seu e-mail do GitHub entre aspas" / configurar globalmente o e-mail do GitHub
+
+git config --global --unset user.name "seu user name do GitHub" / deslogar do seu usuário do GitHub 
+
+git config --global --unset user.email "seu e-mail do GitHub entre aspas" / deslogar do seu e-mail do GitHub 
+
+*caso queira mudar de GitHub usando um mesmo computador, desloga e loga de novo 
+
+git clone http do GitHub / para clonar um terminal do GitHub numa pasta local (no computador) 
+
+ls / listar arquivos da pasta - - pode usar quantas vezes quiser 
+
+clear / limpar o terminal - pode ser usado quantas vezes quiser 
+
+cd / entrar numa pasta 
+
+git status / status para saber em que branch você está e o que falta subir (em vermelho) e o que já subiu (em verde)
+
+git add . / subir arquivos para o GitHub - para subir que tem na pasta 
+
+git add nomedoarquivoigualzinho / subir um arquivo específico 
+
+git commit -m "aqui você coloca seu commit ou comentário" / commitar o código - importante fazer pequenos comites ao longo do código, é uma boa prática 
+
+git push origin main / subir arquivo local para o repositório criado no GitHub
